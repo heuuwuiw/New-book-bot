@@ -4,3 +4,6 @@ services:
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8126125634:AAGaEy-7KIxEqucrlrY9VLJwXQ83dm7hQaU
